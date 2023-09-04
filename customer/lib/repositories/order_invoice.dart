@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+import '../helper/utils/export.dart';
+
+Future getOrderInvoiceApi(
+    {required BuildContext context,
+    required Map<String, dynamic> params}) async {
+  var response = await GeneralMethods.sendApiRequest(
+      apiName: ApiAndParams.apiDownloadOrderInvoice,
+      params: params,
+      isPost: true,
+      context: context,
+      isRequestedForInvoice: true);
+
+  return await response;
+}

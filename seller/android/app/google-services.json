@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "15373277242",
+    "project_id": "saimshoppingmall-878bb",
+    "storage_bucket": "saimshoppingmall-878bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15373277242:android:d296554f3c13aaf2643d03",
+        "android_client_info": {
+          "package_name": "com.mw.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15373277242-a5rp8f5ihdgie3m22hhusuemonuh6h6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlcWqfQcKJBu82NB0u9FOFDt2kIRHKHM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15373277242-a5rp8f5ihdgie3m22hhusuemonuh6h6a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "15373277242-hkpsogmvqsb82g2n7uenvr2h33si4ug0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mw.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15373277242:android:c7651a95779794c9643d03",
+        "android_client_info": {
+          "package_name": "com.mw.seller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15373277242-a5rp8f5ihdgie3m22hhusuemonuh6h6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlcWqfQcKJBu82NB0u9FOFDt2kIRHKHM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15373277242-a5rp8f5ihdgie3m22hhusuemonuh6h6a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "15373277242-hkpsogmvqsb82g2n7uenvr2h33si4ug0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mw.customer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

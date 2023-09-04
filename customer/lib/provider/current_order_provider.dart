@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+
+import '../helper/utils/export.dart';
+
+class CurrentOrderProvider extends ChangeNotifier {
+  Order? order;
+
+  updateOrderItem({required String orderItemId, required String activeStatus}) {
+    if (order != null) {
+      List<OrderItem> orderItems = order!.items;
+      for (var i = 0; i < order!.items.length; i++) {
+        if (orderItems[i].id == orderItemId.toString()) {
+          orderItems[i] = order!.items[i].updateStatus(activeStatus); //Returned
+        }
+      }
+    }
+    notifyListeners();
+  }
+}
